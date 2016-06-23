@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML系列教程</title>
+    <style type="text/css">
+        div#header
+        {
+            background: #bebebe;
+            height: 90px;
+            font-size: 60px;
+            color: #ffffff;
+            margin-left:12px;
+            margin-right:12px;
+            padding-left: 24px;
+            box-sizing: border-box;
+            font-weight: bold;
+            line-height: 90px;
+        }
+        div#tab
+        {
+            background-color: #fff;
+            border: 0;
+            margin-top:12px;
+            margin-bottom:12px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1144px;
+        }
+        #tab button
+        {
+            font-size: 16px;
+            background-color: #fff;
+            border: 0;
+            weight: 155px;
+            float: left;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #tab a
+        {
+            color: #717171;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none;
+        }
+
+        #tab a:hover, #tab a.active
+        {
+            border-bottom: solid 3px #ca0000;
+        }
+        div#left
+        {
+            background-color:#efefef;
+            width:182px;
+            height:1140px;
+            margin-left:12px;
+            margin-right:12px;
+            margin-top:12px;
+            float: left;
+        }
+        #left a:link
+        {
+            text-decoration: none;
+        }
+        #left a:hover
+        {
+            text-decoration: underline;
+        }
+        div#center
+        {
+            background-color:#ffffff;
+            width:710px;
+            margin-left:12px;
+            margin-right:12px;
+            margin-top:12px;
+            border-top: 1px solid #bebebe;
+            border-bottom: 1px solid #bebebe;
+            float:left;
+
+        }
+        div#right
+        {
+            background-color:#efefef;
+            width:180px;
+            height:1140px;
+            margin-left:12px;
+            margin-right:12px;
+            margin-top:12px;
+            float:left;
+        }
+        #left a{
+            color: #000;
+        }
+        #center a, #right a{
+            color: #900b09;
+        }
+        #center a:hover, #right a:hover{
+            color: #ff0000
+        }
+        a:link {color: #900b09}
+        a:visited {color: #900b09}
+        a:active {color: #900b09}
+        body{
+            font-family: Verdana, Arial, '宋体';
+            font-size: 12px;
+        }
+        #center #header2{
+            font-family:"Microsoft YaHei";
+        }
+        #body{
+            margin-left: auto;
+            margin-right: auto;
+            width: 1144px;
+            border: 1px #e9e9e9 solid;
+            box-shadow: 2px 0 5px #aeaeae;
+
+        }
+        body{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="body">
+
+<!--这里是header-->
+<div id="header">
+    W3School
+</div>
+
+<!--这里是tab-->
+    <div id="tab">
+        <div>
+            <button>
+                <a href="url" class="active">HTML/CSS</a>
+            </button>
+        </div>
+        <div>
+            <button>
+                <a href="url">JavaScript</a>
+            </button>
+        </div>
+        <div>
+            <button>
+                <a href="url">Server Side</a>
+            </button>
+        </div>
+        <div>
+            <button>
+                <a href="url">ASP.NET</a>
+            </button>
+        </div>
+        <div>
+            <button>
+                <a href="url">XML</a>
+            </button>
+        </div>
+        <div>
+            <button>
+                <a href="url">Web Services</a>
+            </button>
+        </div>
+        <div>
+            <button>
+                <a href="url">Web Building</a>
+            </button>
+        </div>
+    </div>
+
+
+<!--这里是left-->
+<div id="left">
+    <div style="padding-left: 50px; font-size: 24px; color: #ffffff;background: #bebebe;padding-top: 12px;
+            padding-bottom: 12px;">
+        课程表
+    </div>
+
+    <ul style="list-style:none; color: #000; font-weight: bold; padding-left: 12px; ">
+        <li style="margin-top: 5px"><a href="url" >HTML</a></li>
+        <li style="margin-top: 5px"><a href="url" >XHTML</a></li>
+        <li style="margin-top: 5px"><a href="url" >HTML 5</a></li>
+        <li style="margin-top: 5px"><a href="url" >CSS</a></li>
+        <li style="margin-top: 5px"><a href="url" >CSS3</a></li>
+        <li style="margin-top: 5px"><a href="url" >TCP/IP</a></li>
+    </ul>
+</div>
+
+<!--这里是center-->
+<div id="center" >
+    <div id="header2" style="border-bottom: 2px solid #bebebe;">
+        <h1>HTML系列教程</h1>
+        <h4>从左侧的菜单选择你需要的教程</h4>
+    </div>
+    <div id="HTML" style="border-bottom: 2px solid #bebebe;">
+        <h2>HTML</h2>
+        <p>HTML 指超文本标签语言。</p>
+        <p>HTML 是通向 WEB 技术世界的钥匙。</p>
+        <p>在 W3School 的 HTML 教程中，您将学习如何使用 HTML 来创建站点。</p>
+        <p>HTML 非常容易学习！你会喜欢它的！<a href="url">现在开始学习 HTML</a>!</p>
+    </div>
+    <div id="XHTML" style="border-bottom: 2px solid #bebebe;">
+        <h2>XHTML</h2>
+        <p>XHTML 是更严谨更纯净的 HTML 版本。</p>
+        <p>在 W3School 的 XHTML 教程中，您将学习 HTML 与 XHTML 之间的差异，以及 XHTML 的优势所在。</p>
+        <p>我们还将会为您展示将站点升级至 XHTML 的方法，以帮助您快速部署 XHTML 技术。</p>
+        <p>XHTML 已经成为优秀前端设计师和工程师的首选。<a href="url">现在开始学习 XHTML</a>!</p>
+    </div>
+    <div id="HTML5" style="border-bottom: 2px solid #bebebe;">
+        <h2>HTML 5</h2>
+        <p>HTML 5 是下一代的 HTML。</p>
+        <p>HTML5 仍处于完善之中。然而，大部分现代浏览器已经具备了某些 HTML5 支持。</p>
+        <p>在 W3School 的 HTML 5 教程中，您将了解 HTML5 中的新特性。</p>
+        <p><a href="url">现在就开始学习 HTML 5 </a>!</p>
+    </div>
+    <div id="CSS" >
+        <h2>CSS3</h2>
+        <p>CSS 指层叠样式表（Cascading Style Sheets）。</p>
+        <p>在我们的 CSS 教程中，您将学习如何使用 CSS 同时控制整个站点的样式和布局。</p>
+        <p>通过与 XHTML 结合，CSS 可以帮助我们实行表现与结构分离的开发模式。</p>
+        <p>通过使用 CSS 来提升工作效率！<a href="url">现在开始学习 CSS</a>!</p>
+    </div>
+</div>
+
+<!--这里是right-->
+<div id="right">
+    <div id="search" style="padding-top: 16px; padding-left: 10px; padding-bottom: 16px;">
+        <label for="text" >SEARCH:</label>
+        <input type="text" id="text" style="margin-top: 8px;height: 20px; border: none">
+        <button style="color: #fff; background: #ae4141; border: 0;">Go</button>
+    </div>
+    <div style="padding-left: 50px; font-size: 24px; color: #ffffff;background: #bebebe;padding-top: 12px;
+            padding-bottom: 12px;">
+        工具箱
+    </div>
+    <div id="参考手册">
+        <ul style="padding-left: 10px; list-style:none;">
+            <h5 style="margin-bottom: 6px">参考手册</h5>
+            <li><a href="url">XHTML</a></li>
+            <li><a href="url">HTML 5</a></li>
+            <li><a href="url">CSS</a></li>
+            <li><a href="url">CSS3</a></li>
+            <li><a href="url">TCP/IP</a></li>
+        </ul>
+    </div>
+    <div id="实例/案例">
+        <ul style="padding-left: 10px; list-style:none;">
+            <h5 style="margin-bottom: 6px">参考手册</h5>
+            <li><a href="url">HTML 实例</a></li>
+            <li><a href="url">CSS 实例</a></li>
+        </ul>
+    </div>
+    <div id="测试/考试">
+        <ul style="padding-left: 10px; list-style:none;">
+            <h5 style="margin-bottom: 6px">参考手册</h5>
+            <li><a href="url">HTML 测验</a></li>
+            <li><a href="url">HTML5 测验</a></li>
+            <li><a href="url">XHTML 测验</a></li>
+            <li><a href="url">CSS 测验</a></li>
+        </ul>
+    </div>
+    <div id="代码验证">
+        <ul style="padding-left: 10px; list-style:none;">
+            <h5 style="margin-bottom: 6px">参考手册</h5>
+            <li><a href="url">XHTML</a></li>
+            <li><a href="url">HTML 5</a></li>
+            <li><a href="url">CSS</a></li>
+            <li><a href="url">CSS3</a></li>
+            <li><a href="url">TCP/IP</a></li>
+        </ul>
+    </div>
+</div>
+<div style="clear: both"></div>
+</div>
+
+</body>
+</html>
